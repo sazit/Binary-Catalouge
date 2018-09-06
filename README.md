@@ -19,6 +19,8 @@ Ids for keys are generated randomly, from 1 to 9999 currently. All possible outc
 -	Data types
 All user input of words have been in char* and most numbers are represented as either int or double. Most functions are either of return type bool, node or simply just void. The main tree uses a generic data type of node<elemType>, which means the data is defined by the user. In this case, Base* was used.
 
+![alt text](https://raw.githubusercontent.com/sazit/Binary-Catalouge/master/BinaryCatalougeDisplay.png)
+
 
 Data Structures Analysis
 
@@ -41,3 +43,5 @@ Algorithm analysis is required mainly in traversing and searching an object in t
 Future Work
 
 Recursion must be implemented greatly when developing this work in the future. The best way to traverse through a tree is recursion, performing certain actions inside the recursion loop. This way the algorithm would be much more efficient, but it is extremely hard to debug. I found it difficult to return a node pointer when recursively traversing through the tree because the node pointer would override itself. Saving the data of the items and catalogues into XML formatted files is also another area that has possibility to improve this implementation of a catalogue.
+
+
